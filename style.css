@@ -39,3 +39,8 @@ a:hover {
 nav {
     margin-bottom: 20px;
 }
+
+.section-about {
+    height: 640px;
+    background: url(../img/01-Картинка-фона.jpg) center/cover no-repeat scroll;
+}
