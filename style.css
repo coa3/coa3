@@ -121,6 +121,10 @@ nav {
     margin: 0 auto;
 }
 
+.section-map {
+    margin-bottom: 20px;
+}
+
 .section-map-title {
     margin-bottom: 20px;
     text-align: center;
@@ -131,4 +135,15 @@ nav {
 iframe {
     display: block;
     margin: 0 auto;
+}
+
+.line {
+    border-top: 1px solid #999999;
+    width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 80px;
 }
