@@ -1389,12 +1389,10 @@ let A2 = "aah";
 let multipleA = /a{3,5}h/;
 multipleA.test(A4); --true
 multipleA.test(A2);  --false
-
 let haStr = "Hazzzzah";   Измените регулярное выражение Regex, чтобы оно соответствовало слову Huzzah, только если оно состоит из четырех или более букв z.
 let haRegex = /Haz{4,}ah/; // Change this line
 let result = haRegex.test(haStr) 
     let rainbowRegex= /colou?r/ - буква перед знаком вороса ? не обязательная
-
     let wrongText = "The sky is silver.";
 let silverRegex = /silver/;
 wrongText.replace(silverRegex, "blue"); найдет слово silver и заменит его на blue
